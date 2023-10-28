@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=IBM+Plex+Mono:wght@200&family=Poppins&display=swap');
 
 /*Start of Globalb Styles */
 
@@ -29,6 +29,11 @@ button {
     font-weight: bold;
 }
 
+
+.siteblock {
+    height: 400px;
+    width: auto;
+}
 /*End of Global Styles*/
 
 
@@ -36,10 +41,10 @@ button {
 
 header {
     background-color: #1f2973;
-    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px;
 }
 
 
@@ -77,6 +82,12 @@ nav li a{
 
 /* end of header section */
 
+/*start of hero section */
+
+article {
+    margin: 300px 0 0;
+}
+
 
 .hero {
     display: flex;
@@ -86,10 +97,22 @@ nav li a{
 }
 
 .hero p {
+    width: 700px;
+    height: auto;
+}
+
+.hero p.main {
     text-align: center;
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+    font-family: 'Edu TAS Beginner', sans-serif;
+}
+
+.hero p.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
 }
 
 #coding {
@@ -104,3 +127,50 @@ nav li a{
     align-items: center;
     gap: 16px;
 }
+
+/* end of hero section */
+
+/*start of activities section */
+
+main {
+    background-color: #f9faf8;
+    background-image: url(img/wave1.svg);
+    background-repeat: no-repeat;
+    margin: 300px 0 0;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 400px;
+    background-color: rgba(12, 12, 12, 0.7);
+
+  }
+  
+  .container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/wave2.svg);
+    background-size: cover;
+  }
+  
+  .cardbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+  }
+
+/* ending of hero section* /
