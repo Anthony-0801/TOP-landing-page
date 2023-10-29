@@ -173,4 +173,67 @@ main {
     padding: 32px;
   }
 
-/* ending of hero section* /
+/* ending of hero section */
+
+/* start of quote section  */
+
+.quotes {
+    background-color: #e5e7eb;
+    padding: 50px;
+    text-align: center;
+}
+
+.quotes q {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+/* end of quote section */
+
+
+/* start of action section */
+
+.action {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 60px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.action-container h4 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.action-container p {
+    color:#1f2973;
+}
+
+.action button {
+    padding: 30px;
+    flex: 1;
+    border-radius: 0%;
+}
+
+/*end of action section */
+
+/*start of footer section */
+
+footer {
+    background-color: #1f2973;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
